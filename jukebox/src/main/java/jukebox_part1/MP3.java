@@ -31,9 +31,7 @@ public class MP3 {
 			try {
 			InputStream song = new FileInputStream(songFile);
 			System.out.println("Song is playing...");
-			System.out.println("heynig1");
 			p.play(song);
-			System.out.println("heynig");
 			}catch (FileNotFoundException e) {
 			System.err.println("File "+ songFile+ " not found");
 			} catch (PlayerException e) {
